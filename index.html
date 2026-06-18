@@ -4,9 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elevator Consulting | Independent Elevator Experts</title>
+<title>Chavan Elevator Consulting</title>
 
 <style>
+
 *{
     margin:0;
     padding:0;
@@ -15,16 +16,14 @@
 }
 
 body{
-    color:#333;
     background:#f8fafc;
+    color:#333;
 }
 
 header{
     background:#0f172a;
     color:white;
     padding:20px 8%;
-    position:sticky;
-    top:0;
 }
 
 nav{
@@ -34,8 +33,8 @@ nav{
 }
 
 nav ul{
-    display:flex;
     list-style:none;
+    display:flex;
     gap:30px;
 }
 
@@ -44,18 +43,20 @@ nav a{
     text-decoration:none;
 }
 
-.hero{
+.home-container{
     min-height:100vh;
     display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:flex-start;
-    padding-left:8%;
-    width:65%;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 8%;
+}
+
+.hero{
+    width:55%;
 }
 
 .hero-image{
-    width:500px;
+    width:600px;
     max-width:100%;
     border-radius:20px;
     margin-bottom:25px;
@@ -77,19 +78,17 @@ nav a{
 }
 
 .btn{
+    display:inline-block;
+    margin-top:20px;
     background:#2563eb;
     color:white;
     padding:15px 30px;
     text-decoration:none;
     border-radius:10px;
-    margin-top:15px;
 }
 
 .side-services{
-    position:absolute;
-    top:180px;
-    right:60px;
-    width:300px;
+    width:30%;
 }
 
 .side-services h2{
@@ -105,7 +104,6 @@ nav a{
 }
 
 .about{
-    background:#f8fafc;
     padding:80px 10%;
 }
 
@@ -121,15 +119,14 @@ footer{
     text-align:center;
     padding:20px;
 }
-</style>
 
+</style>
 </head>
 
 <body>
 
 <header>
 <nav>
-
 <h2>Chavan Elevator Consulting</h2>
 
 <ul>
@@ -139,6 +136,8 @@ footer{
 
 </nav>
 </header>
+
+<div class="home-container">
 
 <section class="hero">
 
@@ -189,10 +188,11 @@ Call Now
 
 </div>
 
+</div>
+
 <section id="about" class="about">
 
 <h2>About Us</h2>
-
 <br>
 
 <p>
@@ -206,7 +206,6 @@ efficiency and performance.
 <section id="contact" class="contact">
 
 <h2>Contact</h2>
-
 <br>
 
 <p>Name: Mr. Chavan</p>
